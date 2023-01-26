@@ -1,9 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-interface Favorite {
-  mediaId: number;
-}
-
 export const appStateSlice = createSlice({
   name: "AppState",
   initialState: {
